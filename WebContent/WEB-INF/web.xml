@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<web-app version="2.5"   
+    xmlns="http://java.sun.com/xml/ns/javaee"   
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   
+    http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">  
+ 
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>  
+     <!-- 类名 -->  
+    <servlet-name>HelloServlet</servlet-name>  
+    <!-- 所在的包 -->  
+    <servlet-class>com.csz.test.HelloServlet</servlet-class>  
+  </servlet>
+  <servlet-mapping>  
+    <servlet-name>HelloServlet</servlet-name>  
+    <!-- 访问的网址 -->  
+    <url-pattern>/shop/HelloServlet</url-pattern>  
+  </servlet-mapping>  
+  
+  <servlet>  
+    <servlet-name>UserServlet</servlet-name>  
+    <servlet-class>com.csz.servlet.UserServlet</servlet-class>  
+  </servlet>
+  <servlet-mapping>  
+    <servlet-name>UserServlet</servlet-name>  
+    <url-pattern>/shop/UserServlet</url-pattern>  
+  </servlet-mapping>  
+  
+  <servlet>  
+    <servlet-name>GoodsServlet</servlet-name>  
+    <servlet-class>com.csz.servlet.GoodsServlet</servlet-class>  
+  </servlet>
+  <servlet-mapping>  
+    <servlet-name>GoodsServlet</servlet-name>  
+    <url-pattern>/shop/GoodsServlet</url-pattern>  
+  </servlet-mapping>  
+  
+  <servlet>  
+    <servlet-name>SaleServlet</servlet-name>  
+    <servlet-class>com.csz.servlet.SaleServlet</servlet-class>  
+  </servlet>
+  <servlet-mapping>  
+    <servlet-name>SaleServlet</servlet-name>  
+    <url-pattern>/shop/SaleServlet</url-pattern>  
+  </servlet-mapping>  
+  
+</web-app>  
