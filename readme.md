@@ -30,13 +30,13 @@ Java web小型零售超市管理系统（软件综合实习、数据库综合实
 
 - 登录界面
 
-![file:///C:/Users/caiso/eclipse-workspace/shop/WebContent/source/test1.png](file:///C:/Users/caiso/eclipse-workspace/shop/WebContent/source/test1.png)
+![file:///C:/Users/caiso/eclipse-workspace/shop/WebContent/source/test1.png](https://github.com/cszcsz/Javaweb_shop/blob/master/WebContent/source/test1.png)
 
 - 前台销售界面
 
-![](file:///C:/Users/caiso/eclipse-workspace/shop/WebContent/source/test2.png)
+![](https://github.com/cszcsz/Javaweb_shop/blob/master/WebContent/source/test1.png)
 
 - 商品管理界面
 
-![](file:///C:/Users/caiso/eclipse-workspace/shop/WebContent/source/test3.png)
+![](https://github.com/cszcsz/Javaweb_shop/blob/master/WebContent/source/test1.png)
 
